@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  background-color: rgb(5 86 63);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 3px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav ul li a:hover {
+  color: aquamarine;
+  font-size: 1.05rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90px;
+}
+.firstSection div {
+  width: 35%;
+  margin: auto;
+}
+
+.leftSection {
+  font-size: 1.5rem;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.leftSection .button {
+padding: 50px 0px;
+display: flex;
+flex-direction: row;
+/* margin-left: 5px; */
+justify-content: space-around;
+}
+.leftSection .btn{
+  padding: 5px;
+  background: blueviolet;
+  color: white;
+  border:2px solid white;
+  border-radius: 4px ;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  
+}
+.rightSection img {
+  width: 100%;
+  height: 100%;
+}
+.purple {
+  color: blueviolet;
+}
+
+#element {
+  color: blueviolet;
+}
+main hr {
+  margin: 40px 84px;
+  background-color: rgb(1, 62, 45);
+  border: 1.5px;
+  height: 2px;
+}
+
+.secondSection {
+  margin: 34px 84px;
+  color: white;
+}
+
+.secondSection h1 {
+  font-size: 1.5rem;
+}
+.text-grey {
+  color: grey;
+}
+
+.secondSection .box {
+  background: white;
+  width: 77vw;
+  margin: 56px 0px;
+  height: 2px;
+  display: flex;
+}
+
+.secondSection .vertical {
+  background: white;
+  margin: 0 120px;
+
+  height: 93px;
+  width: 1px;
+}
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -36px;
+  left: -12px;
+}
+
+.vertical-title {
+  position: relative;
+  width: 150px;
+  top: 75px;
+  font-size: 14px;
+}
+
+.vertical-DESC {
+  position: relative;
+  top: 86px;
+  width: 150px;
+  color: grey;
+  font-size: 9px;
+}
+
+footer{
+  height: 233px;
+  background-color: aquamarine;
+
+}
+.footer{
+  display: flex;
+  margin: 123px 122px;
+
+}
